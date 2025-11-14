@@ -1,0 +1,36 @@
+.label {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  text-align: center;
+  font-family: 'Inter', system-ui, sans-serif;
+  max-width: 480px;
+  padding-bottom: 10px;
+}
+
+.searchBox {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  padding: 0.875rem 1.25rem;
+  margin: 0 auto;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #1f2937;
+  background-color: #fafafa;
+  font-family: 'Inter', system-ui, sans-serif;
+  transition: border-color 0.25s, background-color 0.25s, box-shadow 0.25s;
+  outline: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.searchBox:focus {
+  border-color: #5046e5;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 0 3px rgba(80, 70, 229, 0.15);
+}
+
+.searchBox::placeholder {
+  color: #9ca3af;
+}
